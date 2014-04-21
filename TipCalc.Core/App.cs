@@ -1,5 +1,6 @@
 using Cirrious.CrossCore.IoC;
 using Cirrious.CrossCore;
+using Cirrious.MvvmCross.ViewModels;
 
 namespace TipCalc.Core
 {
@@ -15,6 +16,9 @@ namespace TipCalc.Core
 			Mvx.RegisterType<ICalculation, Calculation>();
 				
 			RegisterAppStart<TipViewModel>();
+
+//            var appStart = new MvxAppStart<TipViewModel>();
+//            Mvx.RegisterSingleton<IMvxAppStart>(appStart);
         }
     }
 }
