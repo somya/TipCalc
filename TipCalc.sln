@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30324.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TipCalc.Core", "TipCalc.Core\TipCalc.Core.csproj", "{E9E99804-CD4C-4423-8428-1FCA6302DC8D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TipCalc.UI.Droid", "TipCalc.UI.Droid\TipCalc.UI.Droid.csproj", "{5074D81D-DA7D-47B5-9D8A-91DBEAA73639}"
@@ -11,14 +13,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5074D81D-DA7D-47B5-9D8A-91DBEAA73639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5074D81D-DA7D-47B5-9D8A-91DBEAA73639}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5074D81D-DA7D-47B5-9D8A-91DBEAA73639}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5074D81D-DA7D-47B5-9D8A-91DBEAA73639}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E9E99804-CD4C-4423-8428-1FCA6302DC8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E9E99804-CD4C-4423-8428-1FCA6302DC8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9E99804-CD4C-4423-8428-1FCA6302DC8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9E99804-CD4C-4423-8428-1FCA6302DC8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5074D81D-DA7D-47B5-9D8A-91DBEAA73639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5074D81D-DA7D-47B5-9D8A-91DBEAA73639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5074D81D-DA7D-47B5-9D8A-91DBEAA73639}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5074D81D-DA7D-47B5-9D8A-91DBEAA73639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5074D81D-DA7D-47B5-9D8A-91DBEAA73639}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = TipCalc.Core\TipCalc.Core.csproj
