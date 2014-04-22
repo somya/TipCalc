@@ -1,8 +1,19 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhoneRetina.7.1" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TipCalc.UI.Touch/AppDelegate.cs">
+    <Files>
+      <File FileName="TipCalc.UI.Droid/Setup.cs" Line="18" Column="1" />
+      <File FileName="TipCalc.UI.Touch/Setup.cs" Line="1" Column="1" />
+      <File FileName="TipCalc.UI.Touch/AppDelegate.cs.txt" Line="28" Column="3" />
+      <File FileName="TipCalc.UI.Touch/AppDelegate.cs" Line="30" Column="1" />
+      <File FileName="TipCalc.UI.Touch/ToDo-MvvmCross/_ Touch UI.txt" Line="1" Column="1" />
+      <File FileName="TipCalc.UI.Touch/Main.cs" Line="1" Column="1" />
+      <File FileName="TipCalc.UI.Touch/Views/TipView.cs" Line="39" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.TipCalc.UI.Droid MonoForAntroid.PreferredDevice="3.7&quot; WVGA (Nexus One)" />
 </Properties>
